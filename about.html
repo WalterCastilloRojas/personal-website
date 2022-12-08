@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Walter Castillo Rojas</title>
+    <meta name="title" content="Walter Castillo Rojas" />
+    <meta name="description" content="Progamador y diseñador web." />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - custom font link
+  -->
+    <link rel="stylesheet" href="./assets/font/font.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/loading.svg" />
+    <link rel="preload" as="image" href="./assets/images/loading-circle.svg" />
+  </head>
+
+  <body class="active" id="top">
+    <!-- 
+    -#PRELOADING
+  -->
+
+    <div class="loading" data-loading>
+      <p class="circle">Loading</p>
+    </div>
+    `
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <h1 class="logo">Walter Castillo Rojas</h1>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <img
+            src="./assets/images/menu.svg"
+            width="35"
+            height="35"
+            alt="menu icon"
+          />
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <h1 class="logo">W. C. R.</h1>
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <span class="span one"></span>
+              <span class="span two"></span>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#portfolio" class="navbar-link" data-nav-link
+                >Portfolio</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link" data-nav-link
+                >Contact us</a
+              >
+            </li>
+          </ul>
+
+          <button class="login-btn">
+            <img
+              src="./assets/images/user.svg"
+              width="35"
+              height="35"
+              alt="user icon"
+            />
+
+            <span class="span">Register for Future Updates</span>
+          </button>
+
+          <p class="navbar-title">My Address</p>
+
+          <address class="navbar-text">
+            AV. Pardo Nro.842 Cusco-Peru.
+          </address>
+
+          <p class="navbar-text">
+           Call Me:
+            <a href="tel:+51 981670511" class="contact-link">+51 981670511</a>
+          </p>
+        </nav>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+
+
+ <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about me">
+        <div class="container">
+          <div class="about-content">
+            <h2 class="h2 section-title" data-reveal="right">
+              Hi. I’m <br />
+              Walter.
+            </h2>
+
+            <div class="wrapper has-before" data-reveal="right">
+              <p class="section-text">
+                A passionate
+                <em class="em">web designer</em>
+                who is working in this field
+                <em class="em">the last 5 years.</em>
+                I’m ready to give you my best.
+              </p>
+
+              <img
+                src="./assets/images/signature.png"
+                width="151"
+                height="92"
+                loading="lazy"
+                alt="signature"
+                class="img"
+              />
+            </div>
+          </div>
+
+          <figure class="about-banner" data-reveal="left">
+            <div
+              class="img-holder has-before"
+              style="--width: 512; --height: 684"
+            >
+              <img
+                src="./assets/images/about-banner.jpg"
+                width="512"
+                height="684"
+                loading="lazy"
+                alt="Riachard Ryan"
+                class="img-cover"
+              />
+            </div>
+
+            <img
+              src="./assets/images/about-shape-2.svg"
+              width="659"
+              height="653"
+              loading="lazy"
+              alt=""
+              class="shape shape-2"
+            />
+          </figure>
+
+          <img
+            src="./assets/images/about-shape-3.svg"
+            width="239"
+            height="232"
+            loading="lazy"
+            alt=""
+            class="shape shape-3"
+          />
+        </div>
+      </section>
+
+
+
+
+     <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="footer-top section" id="contact">
+      <div class="container">
+        <p class="section-subtitle" data-reveal>Contact Us</p>
+
+        <h2 class="h2 section-title" data-reveal>
+          Work inquiry, Job oportunities? Send me a message.
+        </h2>
+
+        <a
+          href="mailto:wcastillo@upandupspace.com"
+          class="btn-icon"
+          data-reveal
+        >
+          <img
+            src="./assets/images/arrow-forward.svg"
+            width="43"
+            height="20"
+            loading="lazy"
+            alt="arrow-forward icon"
+          />
+        </a>
+
+        <img
+          src="./assets/images/footer-1.jpg"
+          width="159"
+          height="176"
+          loading="lazy"
+          alt="photography"
+          class="abs-img abs-img-1"
+          data-reveal
+        />
+
+        <img
+          src="./assets/images/footer-2.jpg"
+          width="265"
+          height="275"
+          loading="lazy"
+          alt="photography"
+          class="abs-img abs-img-2"
+          data-reveal
+        />
+
+        <img
+          src="./assets/images/footer-3.jpg"
+          width="303"
+          height="272"
+          loading="lazy"
+          alt="photography"
+          class="abs-img abs-img-3"
+          data-reveal
+        />
+
+        <img
+          src="./assets/images/footer-4.jpg"
+          width="175"
+          height="175"
+          loading="lazy"
+          alt="photography"
+          class="abs-img abs-img-4"
+          data-reveal
+        />
+
+        <img
+          src="./assets/images/footer-shape.svg"
+          width="185"
+          height="134"
+          loading="lazy"
+          alt=""
+          class="shape"
+        />
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="logo">W.C.R( Programmer, Web Designer )</p>
+
+        <ul class="social-list">
+          <li>
+            <a href="https://www.facebook.com/lucas.castillorojas.7" target="blank" class="social-link">Facebook.</a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/lucascast777/" target="blank" class="social-link">Instagram.</a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/lucas-castillo-1441b4218/" target="blank" class="social-link">Linkedin.</a>
+          </li>
+        </ul>
+
+        <p class="copyright">©Copiright 2022 Walter Castillo Rojas.</p>
+      </div>
+    </div>
+
+    <div class="footer-bg has-before">
+      <img
+        src="./assets/images/footer-bg.jpg"
+        width="1920"
+        height="1135"
+        loading="lazy"
+        alt="photography"
+        class="img-cover"
+      />
+    </div>
+  </footer>
+
+  <!-- 
+  - #BACK TO TOP
+-->
+
+  <a
+    href="#top"
+    class="back-top-btn"
+    aria-label="back to top"
+    data-back-top-btn
+    >0%</a
+  >
+
+  <!-- 
+  - #CUSTOM CURSOR
+-->
+
+  <div class="cursor" data-cursor></div>
+
+  <!-- 
+  - custom js link
+-->
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
+
+
+  <!-- 
+  - Walter castillo rojas ©2022
