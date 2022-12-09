@@ -930,7 +930,149 @@ padding-top:4px;
   text-align: center;
 }
 
+/* Contacto Section */
+#Contacto {
+  padding-top: 6rem;
+  padding-bottom: 3.5rem;
+  align-items: center;
+}
 
+#Contacto .container {
+  width: 85%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2.5%;
+}
+
+#Contacto h1 {
+  display: flex;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: var(--ff-PPMori);
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+
+
+
+#Contacto p {
+  font-size:var(--p-font-size);
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  
+}
+
+#Contacto .col-one {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1em 1.3em 1em 1.3em;
+  margin: 0;
+  width: 45%;
+
+}
+
+@media (max-width: 768px){.col-one{
+  width:100%  !important;
+ }
+}
+@media (max-width: 800px){.col-two{
+visibility: hidden;
+display:none;
+
+ }
+}
+
+
+
+#Contacto .col-two {
+  width: 55%;
+  padding: 30px 20px 30px 20px;
+  margin: 0;
+
+}
+
+#Contacto h3 {
+  font-size: 1.6em;
+  line-height: 1.4em;
+  font-family:var(--ff-recoleta);
+  box-sizing: border-box;
+  font-weight: 400;
+  text-align: center;
+}
+
+#Contacto form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+
+#Contacto form label {
+  margin-bottom: 3px;
+  font-size: 1.1em;
+
+}
+
+#Contacto form input {
+  padding: 10px 10px 10px 10px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 0.9em;
+  letter-spacing: -0.5px;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+
+}
+
+#Contacto form select {
+  padding: 10px 5px 10px 5px;
+  border: 1.5px solid black;
+  margin-bottom: 10px;
+  font-size: 0.9em
+}
+
+#Contacto form textarea {
+  padding: 10px 10px 10px 10px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: var(--ff-gordita) !important;
+  font-size: 0.9em;
+  letter-spacing: -0.2px;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+
+}
+
+#Contacto form .btn {
+  padding: 15px 30px;
+  border: 1.5px solid black;
+  border-radius: 0px;
+  font-family: "PPMori Semibold";
+  color: black;
+  background-color: white;
+  font-size:var(--btn-font-size);
+  letter-spacing: -0.5px;
+  font-size: 0.9em;
+display:inline-block;
+margin:auto;
+}
+
+#Contacto h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-align: center;
+}
 
 
 
