@@ -730,7 +730,12 @@ padding-top:4px;
 .about .wrapper,
 .about-banner { padding-inline-start: 45px; }
 
+
 .about .section-title { margin-block-end: 35px; }
+@media (max-width: 768px){.section-title{
+ text-align-center;
+ }
+}
 
 .about .section-text {
   font-size: var(--fs-6);
