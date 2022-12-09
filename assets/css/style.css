@@ -732,8 +732,9 @@ padding-top:4px;
 
 
 .about .section-title { margin-block-end: 35px; }
+
 @media (max-width: 768px){.section-title{
- text-align-center;
+ text-align:center !important;
  }
 }
 
